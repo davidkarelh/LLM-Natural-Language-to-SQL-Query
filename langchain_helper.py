@@ -17,7 +17,7 @@ load_dotenv()  # take environment variables from .env (especially openai api key
 
 def get_few_shot_db_chain():
     db_user = os.environ["DB_USER"]
-    db_password = os.environ["PASSWORD"]
+    db_password = os.environ["DB_PASSWORD"]
     db_host = os.environ["DB_HOST"]
     db_name = os.environ["DB_NAME"]
 
